@@ -11,8 +11,8 @@ brew_install_if_missing seattle-beach/tap/git-together
 # Get latest version of vim
 brew_install_if_missing vim --with-override-system-vi
 
-brew cask install rowanj-gitx
-brew cask install sourcetree
+brew_cask_install_if_missing rowanj-gitx
+brew_cask_install_if_missing sourcetree
 
 echo
 echo "Putting a sample git-pair file in ~/.pairs"
