@@ -19,3 +19,4 @@ function prompt_command() {
 }
 
 PROMPT_COMMAND=prompt_command;
+
