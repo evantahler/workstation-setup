@@ -17,7 +17,6 @@ echo "`defaults write org.shiftitapp.ShiftIt multipleActionsCycleWindowSizes YES
 echo
 brew_cask_install_if_missing dash
 brew_cask_install_if_missing postman
-brew_install_if_missing the_silver_searcher
 
 # Terminals
 
