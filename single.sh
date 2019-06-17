@@ -12,6 +12,7 @@ set -e
 MY_DIR="$(dirname "$0")"
 
 source ${MY_DIR}/env.sh
+source ${MY_DIR}/scripts/helpers/brew.sh
 
 for filename in "$@"
 do
