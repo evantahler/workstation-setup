@@ -14,6 +14,7 @@ brew_cask_install_if_missing kaleidoscope
 brew_cask_install_if_missing steam
 brew_cask_install_if_missing notion
 brew_cask_install_if_missing mailplane
+brew_cask_install_if_missing vlc
 brew_cask_install_if_missing visual-studio-code
 
 # configure dropbox to run main application directories
