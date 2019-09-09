@@ -20,18 +20,11 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 # stop iTunes from opening automatically when iOS devices connected
 defaults write com.apple.iTunesHelper ignore-devices 1
 
-# modify appearance of dock: remove standard icons, add chrome and iTerm
-curl https://raw.githubusercontent.com/kcrawford/dockutil/master/scripts/dockutil > /usr/local/bin/dockutil
-chmod a+rx,go-w /usr/local/bin/dockutil
-dockutil --list | awk -F\t '{print "dockutil --remove \""$1"\" --no-restart"}' | sh
-dockutil --add /Applications/Google\ Chrome.app --no-restart
-dockutil --add /Applications/iTerm.app
-
 # move the dock to the right side of the screen (requires logout to take effect)
 defaults write com.apple.dock orientation bottom
 
 # show the dock
-defaults write com.apple.dock autohide -bool false
+defaults write com.apple.dock autohide -bool true
 killall Dock
 
 # set the desktop wallpaper

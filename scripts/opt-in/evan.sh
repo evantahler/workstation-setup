@@ -5,10 +5,10 @@ echo ""
 source scripts/helpers/brew.sh
 
 ## Main Applications
+mkdir -p workspace
 source ${MY_DIR}/scripts/opt-in/mac-apps.sh
 
 ## Developer Tools
-source ${MY_DIR}/scripts/opt-in/developr-common.sh
 source ${MY_DIR}/scripts/opt-in/ruby.sh
 source ${MY_DIR}/scripts/opt-in/node.sh
 source ${MY_DIR}/scripts/opt-in/heroku.sh

@@ -20,8 +20,12 @@ echo "Installing Homebrew services..."
 brew tap homebrew/services
 
 echo
-echo "Adding Pivotal tap to Homebrew"
-brew tap pivotal/tap
+echo "Installing Homebrew fonts..."
+brew tap homebrew/cask-fonts
+
+echo
+echo "Installing cask for specific app versions..."
+brew tap homebrew/cask-versions
 
 echo "Cleaning up your Homebrew installation..."
 brew cleanup

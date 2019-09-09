@@ -21,7 +21,7 @@ brew_cask_install_if_missing dash
 # Terminals
 
 brew_cask_install_if_missing iterm2
-brew_cask_install_if_missing jq
+brew_install_if_missing jq
 
 # Browsers
 
