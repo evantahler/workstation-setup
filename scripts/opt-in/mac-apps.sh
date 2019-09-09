@@ -10,6 +10,7 @@ brew_cask_install_if_missing 1password
 brew_cask_install_if_missing spotify
 brew_cask_install_if_missing 1password
 brew_cask_install_if_missing slack
+brew_cask_install_if_missing kaleidoscope
 brew_cask_install_if_missing steam
 brew_cask_install_if_missing notion
 brew_cask_install_if_missing mailplane
