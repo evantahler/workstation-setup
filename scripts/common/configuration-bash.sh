@@ -11,11 +11,12 @@ git clone https://github.com/Bash-it/bash-it.git ~/.bash_it
 ~/.bash_it/install.sh --silent
 source ~/.bash_profile
 
-# bash-it enable completion git
-# bash-it enable plugin ssh
-# bash-it enable plugin rbenv
-# bash-it enable completion ssh
-# bash-it enable alias git
+bash-it enable completion git
+bash-it enable plugin ssh
+bash-it enable plugin rbenv
+bash-it enable plugin nvm
+bash-it enable completion ssh
+bash-it enable alias git
 
 # powerline theme
 sed -i "" "s/export BASH_IT_THEME='bobby'/export BASH_IT_THEME='powerline-multiline'/" ~/.bash_profile
