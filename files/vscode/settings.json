@@ -15,8 +15,5 @@
   "javascript.suggest.autoImports": false,
   "typescript.suggest.autoImports": false,
   "workbench.iconTheme": "vscode-icons",
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "editor.formatOnSave": true
 }

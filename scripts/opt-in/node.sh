@@ -12,7 +12,8 @@ export NVM_DIR="$HOME/.nvm"
 
 brew_install_if_missing node
 brew_install_if_missing yarn
+brew_cask_install_if_missing react-native-debugger
 
-nvm install v10
-nvm alias default v10
+nvm install v12
+nvm alias default v12
 npm install yarn -g

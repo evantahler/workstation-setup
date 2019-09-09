@@ -35,4 +35,4 @@ defaults write com.apple.dock autohide -bool false
 killall Dock
 
 # set the desktop wallpaper
-osascript -e 'tell application "System Events" to set picture of every desktop to ("files/images/splash.png" as POSIX file as alias)'
+# osascript -e 'tell application "System Events" to set picture of every desktop to ("files/images/splash.png" as POSIX file as alias)'

@@ -14,9 +14,9 @@ brew_cask_install_if_missing sketch
 
 # Screen recording tools
 
-brew_cask_install_if_missing recordit
+# brew_cask_install_if_missing recordit
 brew_cask_install_if_missing skitch
 brew_cask_install_if_missing licecap
-brew_cask_install_if_missing screenflow
+# brew_cask_install_if_missing screenflow
 
 set -e

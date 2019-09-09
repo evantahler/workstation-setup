@@ -1,8 +1,7 @@
 pairs:
-  bk: Brian Kelly; bkelly
-  ah: Ashraf Hanafy; ahanafy
+  et: Evan Tahler; etahler; evan
 
 email:
   prefix: pair
-  domain: pivotal.io
+  domain: delicioushat.com
 
