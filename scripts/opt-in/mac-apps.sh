@@ -31,6 +31,8 @@ mas install 411643860 # daisy disk
 
 set -e
 
+sudo xcodebuild -license accept
+
 # modify appearance of dock: remove standard icons, add chrome and iTerm
 curl https://raw.githubusercontent.com/kcrawford/dockutil/master/scripts/dockutil > /usr/local/bin/dockutil
 chmod a+rx,go-w /usr/local/bin/dockutil
