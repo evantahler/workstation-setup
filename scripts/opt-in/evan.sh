@@ -13,7 +13,7 @@ source ${MY_DIR}/scripts/opt-in/ruby.sh
 source ${MY_DIR}/scripts/opt-in/node.sh
 source ${MY_DIR}/scripts/opt-in/heroku.sh
 source ${MY_DIR}/scripts/opt-in/docker.sh
-source ${MY_DIR}/scripts/opt-in/android.sh
+# source ${MY_DIR}/scripts/opt-in/android.sh
 source ${MY_DIR}/scripts/opt-in/vscode.sh
 
 brew_install_if_missing postgresql
