@@ -2,7 +2,7 @@
 
 This project automates the process of setting up a new machine using a simple [Bash](https://www.gnu.org/software/bash/) script.
 
-## Voom Pairing Machines
+## Build the Machines
 
 To setup a machine, clone this repo.
 
