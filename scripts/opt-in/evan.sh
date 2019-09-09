@@ -19,6 +19,8 @@ source ${MY_DIR}/scripts/opt-in/vscode.sh
 brew_install_if_missing postgresql
 brew_install_if_missing mysql@5.7
 brew_install_if_missing redis
+brew_cask_install_if_missing homebrew/cask-versions/adoptopenjdk8
+brew_install_if_missing elasticsearch
 brew_install_if_missing imagemagick
 brew_install_if_missing libxml2
 brew_cask_install_if_missing chromedriver
