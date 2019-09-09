@@ -28,7 +28,5 @@ brew_install_if_missing memcached
 brew services start postgresql
 brew services start redis
 
-source ${MY_DIR}/scripts/opt-in/bash-settings.sh
-
 ## Designer Tools
 source ${MY_DIR}/scripts/opt-in/designer.sh
