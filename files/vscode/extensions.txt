@@ -13,3 +13,6 @@ pkosta2005.heroku-command
 shd101wyy.markdown-preview-enhanced
 eamodio.gitlens
 eg2.vscode-npm-script
+github.vscode-pull-request-github
+mechatroner.rainbow-csv
+streetsidesoftware.code-spell-checker
