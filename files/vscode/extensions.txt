@@ -3,7 +3,6 @@ AndrsDC.base16-themes
 axiomaticstudios.one-monokai-80s
 ms-vscode.atom-keybindings
 ms-vscode.sublime-keybindings
-chenxsan.vscode-standardjs
 ms-azuretools.vscode-docker
 ms-vscode.node-debug2
 msjsdiag.vscode-react-native
@@ -16,3 +15,4 @@ eg2.vscode-npm-script
 github.vscode-pull-request-github
 mechatroner.rainbow-csv
 streetsidesoftware.code-spell-checker
+esbenp.prettier-vscode

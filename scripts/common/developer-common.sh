@@ -16,17 +16,19 @@ echo "configure shiftit to select 1/3 screen width, 1/2 screen width and 2/3 scr
 echo "`defaults write org.shiftitapp.ShiftIt multipleActionsCycleWindowSizes YES`"
 echo
 
-brew_cask_install_if_missing dash
-
 # Terminals
 
 brew_cask_install_if_missing iterm2
 brew_install_if_missing jq
+brew_cask_install_if_missing ngrok
 
 # Browsers
 
 brew_cask_install_if_missing google-chrome
 brew_cask_install_if_missing firefox-developer-edition
+brew_install_if_missing imagemagick
+brew_install_if_missing libxml2
+brew_cask_install_if_missing chromedriver
 
 # Text Editors
 

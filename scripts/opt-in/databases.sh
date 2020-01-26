@@ -1,0 +1,11 @@
+source scripts/helpers/brew.sh
+
+brew_install_if_missing postgresql
+brew_install_if_missing mysql@5.7
+brew_install_if_missing redis
+brew_cask_install_if_missing homebrew/cask-versions/adoptopenjdk8
+brew_install_if_missing elasticsearch
+brew_install_if_missing memcached
+
+brew services start postgresql
+brew services start redis
